@@ -1,0 +1,16 @@
+mkdir terraform-aws-rds
+cd terraform-aws-rds
+git clone https://github.com/CloudTechDevOps/terraform-aws-rds.git temp
+
+mv temp/* temp/.* . 2>/dev/null
+rm -rf temp .git
+
+git init
+git add .
+git commit -m "Initial commit: Clean copy of Terraform AWS RDS module"
+
+
+git remote add origin https://github.com/vamshikrishnanaliganti/terraform-aws-rds.git
+git branch -M main
+git push -u origin main
+
