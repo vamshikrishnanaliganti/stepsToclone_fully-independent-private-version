@@ -7,10 +7,10 @@ rm -rf temp .git
 
 git init
 git add .
-git commit -m " "
+git commit -m "added script "
 
 
-git remote add origin https://github.com/vamshikrishnanaliganti/terraform-aws-rds.git
+git remote add origin https://github.com/vamshikrishnanaliganti/project-1-maven-jenkins-CICD-docker-eks-.git
 git branch -M main
 git push -u origin main
 
